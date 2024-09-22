@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC News Website</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: helvetica,calibri;
+        }
+        #topbar_section{
+            width: 1100px;
+            height: 60px;
+            background-color: white;
+            margin: 0 auto ;
+        }
+        #logo{
+           margin: 7px;
+           float: left;
+        }
+        .topbar_menu{
+            border-left: 1px solid #CCCCCC;
+            height: 100%;
+            float: left;
+        }
+        #signin_logo{
+          margin: 7px;
+          float: left;
+          
+        }
+        #signin_text{
+            font-weight: bold;
+            font-size: 15px;
+            position: relative;
+            top: 20px;
+            margin-right: 50px;
+        }
+        .topbar{
+            font-weight: bold;
+            font-size: 15px;
+            padding: 15px;
+            height: 29px;
+            margin-right: 5px;
+        }
+        .topbar:hover{
+            border-bottom: 4px solid yellow;
+        }
+        #search_box{
+            float: left;
+            background-color: #E4E4E4;  
+            border: none;
+            font-weight: bold;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="topbar_section">
+       <img src="./bbcimages/image.png" id="logo">
+       <div class="topbar_menu">
+          <img src="./bbcimages/signin.png" id="signin_logo">
+           <span id="signin_text">Sign in</span>
+         
+       </div>
+       <div class="topbar_menu topbar">
+            News
+       </div>
+       <div class="topbar_menu topbar">
+            Sports
+       </div>
+       <div class="topbar_menu topbar">
+            Weather
+       </div>
+       <div class="topbar_menu topbar"> 
+            Shop
+       </div>
+       <div class="topbar_menu topbar"> 
+           Earth
+       </div>
+       <div class="topbar_menu topbar"> 
+           Travel
+       </div>
+       <div class="topbar_menu topbar"> 
+          More
+       </div>
+       <div class="topbar_menu topbar"> 
+         <input type="text" value="Search" id="search_box">
+       </div>
+       
+
+       
+
+       
+    </div>
+</body>
+</html>
